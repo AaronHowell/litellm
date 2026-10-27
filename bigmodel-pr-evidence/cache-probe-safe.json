@@ -1,0 +1,197 @@
+{
+  "source_commit": "960d891522875ac06c8ffcd10048a27f77fbd634",
+  "rows": [
+    {
+      "endpoint": "chat/completions",
+      "request": 1,
+      "status": 200,
+      "usage": {
+        "completion_tokens": 16,
+        "prompt_tokens": 5660,
+        "total_tokens": 5676,
+        "completion_tokens_details": {
+          "reasoning_tokens": 12
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "answer": "323",
+      "cached_tokens": 0,
+      "expected_cost": 0.000653257142857143,
+      "reported_cost": 0.000653257142857143,
+      "call_id": "a03b7140-889c-4b63-b6c4-5e854110acd2",
+      "cost_passed": true,
+      "sdk_schema_passed": true,
+      "persisted_cost": 0.000653257142857143,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/paas/v4/",
+      "cost_verification": "response_header_and_SpendLogs",
+      "passed": true
+    },
+    {
+      "endpoint": "chat/completions",
+      "request": 2,
+      "status": 200,
+      "usage": {
+        "completion_tokens": 10,
+        "prompt_tokens": 5660,
+        "total_tokens": 5670,
+        "completion_tokens_details": {
+          "reasoning_tokens": 5
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 5632
+        }
+      },
+      "answer": "323",
+      "cached_tokens": 5632,
+      "expected_cost": 0.00019225142857142854,
+      "reported_cost": 0.00019225142857142854,
+      "call_id": "18e04eed-4f27-4d05-be7b-0690839719d4",
+      "cost_passed": true,
+      "sdk_schema_passed": true,
+      "persisted_cost": 0.0001922514285714285,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/paas/v4/",
+      "cost_verification": "response_header_and_SpendLogs",
+      "passed": true
+    },
+    {
+      "endpoint": "responses",
+      "request": 1,
+      "status": 200,
+      "usage": {
+        "input_tokens": 5660,
+        "input_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 5632,
+          "cached_tokens_details": null,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": null
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "audio_tokens": null,
+          "reasoning_tokens": 2,
+          "text_tokens": null
+        },
+        "total_tokens": 5666,
+        "cost": null
+      },
+      "answer": "323",
+      "cached_tokens": 5632,
+      "expected_cost": 0.00019065142857142855,
+      "reported_cost": 0.00019065142857142855,
+      "call_id": "40e722b5-37ca-46fc-9bc8-4805d73e36fd",
+      "cost_passed": true,
+      "sdk_schema_passed": true,
+      "persisted_cost": 0.0001906514285714286,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/v1/responses",
+      "cost_verification": "response_header_and_SpendLogs",
+      "passed": true
+    },
+    {
+      "endpoint": "responses",
+      "request": 2,
+      "status": 200,
+      "usage": {
+        "input_tokens": 5660,
+        "input_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 5632,
+          "cached_tokens_details": null,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": null
+        },
+        "output_tokens": 6,
+        "output_tokens_details": {
+          "audio_tokens": null,
+          "reasoning_tokens": 2,
+          "text_tokens": null
+        },
+        "total_tokens": 5666,
+        "cost": null
+      },
+      "answer": "323",
+      "cached_tokens": 5632,
+      "expected_cost": 0.00019065142857142855,
+      "reported_cost": 0.00019065142857142855,
+      "call_id": "3ddd1c9d-f3fc-47e1-8873-eebe15fd3399",
+      "cost_passed": true,
+      "sdk_schema_passed": true,
+      "persisted_cost": 0.0001906514285714286,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/v1/responses",
+      "cost_verification": "response_header_and_SpendLogs",
+      "passed": true
+    },
+    {
+      "endpoint": "messages",
+      "request": 1,
+      "status": 200,
+      "usage": {
+        "input_tokens": 5659,
+        "output_tokens": 6,
+        "cache_read_input_tokens": 0,
+        "server_tool_use": {
+          "web_fetch_requests": 0,
+          "web_search_requests": 0
+        },
+        "service_tier": "standard"
+      },
+      "answer": "323",
+      "cached_tokens": 0,
+      "expected_cost": 0.0006491428571428571,
+      "reported_cost": 0.0006491428571428571,
+      "call_id": "e9f6d88a-2880-41c8-aa15-514da9909de4",
+      "cost_passed": true,
+      "sdk_schema_passed": true,
+      "persisted_cost": 0.0006491428571428571,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/anthropic/v1/messages",
+      "cost_verification": "response_header_and_SpendLogs",
+      "passed": true
+    },
+    {
+      "endpoint": "messages",
+      "request": 2,
+      "status": 200,
+      "usage": {
+        "input_tokens": 27,
+        "output_tokens": 6,
+        "cache_read_input_tokens": 5632,
+        "server_tool_use": {
+          "web_fetch_requests": 0,
+          "web_search_requests": 0
+        },
+        "service_tier": "standard"
+      },
+      "answer": "323",
+      "cached_tokens": 5632,
+      "expected_cost": 0.00019053714285714285,
+      "reported_cost": 0.00019053714285714285,
+      "call_id": "54f303e3-1495-4785-b418-00a29ab35152",
+      "cost_passed": true,
+      "sdk_schema_passed": true,
+      "persisted_cost": 0.0001905371428571428,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/anthropic/v1/messages",
+      "cost_verification": "response_header_and_SpendLogs",
+      "passed": true
+    }
+  ],
+  "cached_input_observed": true,
+  "all_native_surfaces_checked": true,
+  "passed": true,
+  "billing_complete": true
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "request_id": "2026102718175412d963b3a319477e",
+    "litellm_call_id": "a03b7140-889c-4b63-b6c4-5e854110acd2",
+    "call_type": "acompletion",
+    "model": "bigmodel/glm-5.3-flash",
+    "prompt_tokens": 5660,
+    "completion_tokens": 16,
+    "total_tokens": 5676,
+    "spend": 0.000653257142857143,
+    "status": "success",
+    "api_base": "https://open.bigmodel.cn/api/paas/v4/"
+  },
+  {
+    "request_id": "202610271817560a54b9bbc4174097",
+    "litellm_call_id": "18e04eed-4f27-4d05-be7b-0690839719d4",
+    "call_type": "acompletion",
+    "model": "bigmodel/glm-5.3-flash",
+    "prompt_tokens": 5660,
+    "completion_tokens": 10,
+    "total_tokens": 5670,
+    "spend": 0.0001922514285714285,
+    "status": "success",
+    "api_base": "https://open.bigmodel.cn/api/paas/v4/"
+  },
+  {
+    "request_id": "resp_H3PKeu4uF21_h_e4lbPBUK4DyGaz41NM_DQE-bQbIjuX8_SvTapvLefxSp8cXNePEjLlLTyPOSAd4JsuAS6bFTGj5Miuz-HIml6a0Ealz1fgkCsKWY9T_DUrc1n8QN4Hb6VDr2K7sN1KkEgW_lxLC0rz1pp7WvFg9VWCW2F6Uoo2LkPPk6ZnlDjyfGXJcphkuPKXbbEPGTsrsrn9A9c2S3rracrkgDRNgLj4QSaV0EG37YCtewgYZDUZ2ks9Gyrml84X1lumvrphbpLO2Xz6FEa13-Da22DzdCrgPtmkTLFcRR2UJAmRFP39D6p1MkJlvuHFs9j-Y0-eJFtCO8k48G_EFVjexD1RCXGxC99jc4qeaucpYtefg4jbFkX93cD8B_4aA5npWLej7l1mP36dBBT4mUTC2ZC0R-BVZHMddDdIKNi_jzmQo5-s",
+    "litellm_call_id": "40e722b5-37ca-46fc-9bc8-4805d73e36fd",
+    "call_type": "aresponses",
+    "model": "bigmodel/glm-5.3-flash",
+    "prompt_tokens": 5660,
+    "completion_tokens": 6,
+    "total_tokens": 5666,
+    "spend": 0.0001906514285714286,
+    "status": "success",
+    "api_base": "https://open.bigmodel.cn/api/v1/responses"
+  },
+  {
+    "request_id": "resp_qeLZSVLrEjAZVVhXumhrLlMQhjKbH2ABlIQwCTURdVu5sP-3n2S1xynNDNwV_8_vP55SVYlEIFgwB5KyeWEZi1NyOMAlkkkMZyH2jo3_1fDXEsjGuC8EVWcDd5yAvcCkazEcPECZ9PNkbihpwNmFJW2C-T5XZjTYZ9B2RvIikFR6ge8OriOSpscftd68ioktg3njzQNnFNBHDqH28BrztiwM1VvWAJd_2jOGgfiz1Su7s17hAqYc4jh6sxbpQ7EVQT_9ffZDcUgjSNS8kgGWQDeVI8rAG89pCMhDGt1p1TREQ4MP3Wtjqa-vS0hlM3njbrLzFA8_EYJDSlZL9rK5_Wcj6VpU7BRaC8KL_lf-S1mGQjY0UVXdtZnVwPDDIFofvCBbQji6zYBKjqT8YdNxSVetfAi3VFWZ1_vOwg5yJ-qLsBsxJtQXQUj-",
+    "litellm_call_id": "3ddd1c9d-f3fc-47e1-8873-eebe15fd3399",
+    "call_type": "aresponses",
+    "model": "bigmodel/glm-5.3-flash",
+    "prompt_tokens": 5660,
+    "completion_tokens": 6,
+    "total_tokens": 5666,
+    "spend": 0.0001906514285714286,
+    "status": "success",
+    "api_base": "https://open.bigmodel.cn/api/v1/responses"
+  },
+  {
+    "request_id": "msg_20261027181759ccfa343766084506",
+    "litellm_call_id": "e9f6d88a-2880-41c8-aa15-514da9909de4",
+    "call_type": "anthropic_messages",
+    "model": "bigmodel/glm-5.3-flash",
+    "prompt_tokens": 5659,
+    "completion_tokens": 6,
+    "total_tokens": 5665,
+    "spend": 0.0006491428571428571,
+    "status": "success",
+    "api_base": "https://open.bigmodel.cn/api/anthropic/v1/messages"
+  },
+  {
+    "request_id": "msg_202610271818016e3a775368324e1d",
+    "litellm_call_id": "54f303e3-1495-4785-b418-00a29ab35152",
+    "call_type": "anthropic_messages",
+    "model": "bigmodel/glm-5.3-flash",
+    "prompt_tokens": 5659,
+    "completion_tokens": 6,
+    "total_tokens": 5665,
+    "spend": 0.0001905371428571428,
+    "status": "success",
+    "api_base": "https://open.bigmodel.cn/api/anthropic/v1/messages"
+  }
+]

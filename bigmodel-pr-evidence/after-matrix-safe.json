@@ -1,0 +1,758 @@
+{
+  "source_commit": "960d891522875ac06c8ffcd10048a27f77fbd634",
+  "rows": [
+    {
+      "model": "glm-5.3",
+      "endpoint": "chat/completions",
+      "stream": false,
+      "status": 200,
+      "seconds": 3.15,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 10,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "completion_tokens": 11,
+        "prompt_tokens": 30,
+        "total_tokens": 41,
+        "completion_tokens_details": {
+          "reasoning_tokens": 7
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "expected_cost": 7.828571428571428e-05,
+      "reported_cost": 7.828571428571428e-05,
+      "call_id": "388a8cea-f065-4e9f-abc5-6143322984e5",
+      "total_tokens_valid": true,
+      "cost_passed": true,
+      "passed": true,
+      "persisted_cost": 7.828571428571428e-05,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/paas/v4/",
+      "cost_verification": "response_header_and_SpendLogs"
+    },
+    {
+      "model": "glm-5.3",
+      "endpoint": "chat/completions",
+      "stream": true,
+      "status": 200,
+      "seconds": 1.29,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 10,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "completion_tokens": 11,
+        "prompt_tokens": 30,
+        "total_tokens": 41,
+        "completion_tokens_details": {
+          "reasoning_tokens": 7
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "cost": 7.828571428571428e-05
+      },
+      "expected_cost": 7.828571428571428e-05,
+      "reported_cost": 7.828571428571428e-05,
+      "call_id": "3a52f974-08d8-4c30-9c23-29fa45d1152d",
+      "total_tokens_valid": true,
+      "event_types": [
+        "chat.chunk"
+      ],
+      "delta_types": [],
+      "cost_passed": true,
+      "passed": true,
+      "persisted_cost": 7.828571428571428e-05,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/paas/v4",
+      "cost_verification": "final_usage_and_SpendLogs"
+    },
+    {
+      "model": "glm-5.3",
+      "endpoint": "responses",
+      "stream": false,
+      "status": 200,
+      "seconds": 1.31,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 12,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "input_tokens": 30,
+        "input_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": null
+        },
+        "output_tokens": 12,
+        "output_tokens_details": {
+          "audio_tokens": null,
+          "reasoning_tokens": 8,
+          "text_tokens": null
+        },
+        "total_tokens": 42,
+        "cost": null
+      },
+      "expected_cost": 8.228571428571429e-05,
+      "reported_cost": 8.228571428571429e-05,
+      "call_id": "9eba542c-a175-46ab-940e-ede89f944baa",
+      "total_tokens_valid": true,
+      "cost_passed": true,
+      "passed": true,
+      "persisted_cost": 8.228571428571429e-05,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/v1/responses",
+      "cost_verification": "response_header_and_SpendLogs"
+    },
+    {
+      "model": "glm-5.3",
+      "endpoint": "responses",
+      "stream": true,
+      "status": 200,
+      "seconds": 1.82,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 10,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "input_tokens": 30,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 11,
+        "output_tokens_details": {
+          "reasoning_tokens": 7
+        },
+        "total_tokens": 41,
+        "cost": 7.828571428571428e-05
+      },
+      "expected_cost": 7.828571428571428e-05,
+      "reported_cost": 7.828571428571428e-05,
+      "call_id": "e2e1a475-4e92-4f13-a1e6-29dfbe259cd9",
+      "total_tokens_valid": true,
+      "event_types": [
+        "response.created",
+        "response.in_progress",
+        "response.output_item.added",
+        "response.content_part.added",
+        "response.reasoning_text.delta",
+        "response.reasoning_text.done",
+        "response.content_part.done",
+        "response.output_item.done",
+        "response.output_text.delta",
+        "response.output_text.done",
+        "response.completed"
+      ],
+      "delta_types": [],
+      "cost_passed": true,
+      "passed": true,
+      "persisted_cost": 7.828571428571428e-05,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/v1/responses",
+      "cost_verification": "final_usage_and_SpendLogs"
+    },
+    {
+      "model": "glm-5.3",
+      "endpoint": "messages",
+      "stream": false,
+      "status": 200,
+      "seconds": 1.72,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 21,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "input_tokens": 30,
+        "output_tokens": 14,
+        "cache_read_input_tokens": 0,
+        "server_tool_use": {
+          "web_fetch_requests": 0,
+          "web_search_requests": 0
+        },
+        "service_tier": "standard"
+      },
+      "expected_cost": 9.028571428571428e-05,
+      "reported_cost": 9.028571428571428e-05,
+      "call_id": "e62fa03f-9aac-4ea2-962c-4c3a7b8e23b0",
+      "total_tokens_valid": true,
+      "cost_passed": true,
+      "passed": true,
+      "persisted_cost": 9.028571428571428e-05,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/anthropic/v1/messages",
+      "cost_verification": "response_header_and_SpendLogs"
+    },
+    {
+      "model": "glm-5.3",
+      "endpoint": "messages",
+      "stream": true,
+      "status": 200,
+      "seconds": 1.95,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 46,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "input_tokens": 30,
+        "output_tokens": 32,
+        "cache_read_input_tokens": 0,
+        "server_tool_use": {
+          "web_fetch_requests": 0,
+          "web_search_requests": 0
+        },
+        "service_tier": "standard"
+      },
+      "expected_cost": 0.00016228571428571428,
+      "reported_cost": 0.0,
+      "call_id": "c7c22945-01a3-46b4-9d5a-44d8008d0257",
+      "total_tokens_valid": true,
+      "event_types": [
+        "message_start",
+        "ping",
+        "content_block_start",
+        "content_block_delta",
+        "content_block_stop",
+        "message_delta",
+        "message_stop"
+      ],
+      "delta_types": [
+        "thinking_delta",
+        "signature_delta",
+        "text_delta"
+      ],
+      "cost_passed": null,
+      "passed": true,
+      "persisted_cost": 0.0001622857142857143,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/anthropic/v1/messages",
+      "cost_verification": "SpendLogs_final_cost"
+    },
+    {
+      "model": "glm-5.3-flash",
+      "endpoint": "chat/completions",
+      "stream": false,
+      "status": 200,
+      "seconds": 1.48,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 9,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "completion_tokens": 10,
+        "prompt_tokens": 30,
+        "total_tokens": 40,
+        "completion_tokens_details": {
+          "reasoning_tokens": 6
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "expected_cost": 7.428571428571428e-06,
+      "reported_cost": 7.428571428571428e-06,
+      "call_id": "c4bac082-ad83-4f6e-aa48-471d650c660e",
+      "total_tokens_valid": true,
+      "cost_passed": true,
+      "passed": true,
+      "persisted_cost": 7.428571428571428e-06,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/paas/v4/",
+      "cost_verification": "response_header_and_SpendLogs"
+    },
+    {
+      "model": "glm-5.3-flash",
+      "endpoint": "chat/completions",
+      "stream": true,
+      "status": 200,
+      "seconds": 1.0,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 11,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "completion_tokens": 11,
+        "prompt_tokens": 30,
+        "total_tokens": 41,
+        "completion_tokens_details": {
+          "reasoning_tokens": 7
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "cost": 7.82857142857143e-06
+      },
+      "expected_cost": 7.82857142857143e-06,
+      "reported_cost": 7.82857142857143e-06,
+      "call_id": "ed33e503-cb10-40e4-ae86-d4c737908aca",
+      "total_tokens_valid": true,
+      "event_types": [
+        "chat.chunk"
+      ],
+      "delta_types": [],
+      "cost_passed": true,
+      "passed": true,
+      "persisted_cost": 7.82857142857143e-06,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/paas/v4",
+      "cost_verification": "final_usage_and_SpendLogs"
+    },
+    {
+      "model": "glm-5.3-flash",
+      "endpoint": "responses",
+      "stream": false,
+      "status": 200,
+      "seconds": 0.82,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 13,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "input_tokens": 30,
+        "input_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": null
+        },
+        "output_tokens": 12,
+        "output_tokens_details": {
+          "audio_tokens": null,
+          "reasoning_tokens": 8,
+          "text_tokens": null
+        },
+        "total_tokens": 42,
+        "cost": null
+      },
+      "expected_cost": 8.22857142857143e-06,
+      "reported_cost": 8.22857142857143e-06,
+      "call_id": "f87df5ac-36b9-455a-9dd7-33bb4935d516",
+      "total_tokens_valid": true,
+      "cost_passed": true,
+      "passed": true,
+      "persisted_cost": 8.22857142857143e-06,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/v1/responses",
+      "cost_verification": "response_header_and_SpendLogs"
+    },
+    {
+      "model": "glm-5.3-flash",
+      "endpoint": "responses",
+      "stream": true,
+      "status": 200,
+      "seconds": 1.24,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 11,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "input_tokens": 30,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 11,
+        "output_tokens_details": {
+          "reasoning_tokens": 7
+        },
+        "total_tokens": 41,
+        "cost": 7.82857142857143e-06
+      },
+      "expected_cost": 7.82857142857143e-06,
+      "reported_cost": 7.82857142857143e-06,
+      "call_id": "4c7d361e-caed-46fb-b2c8-1331a2a4d892",
+      "total_tokens_valid": true,
+      "event_types": [
+        "response.created",
+        "response.in_progress",
+        "response.output_item.added",
+        "response.content_part.added",
+        "response.reasoning_text.delta",
+        "response.reasoning_text.done",
+        "response.content_part.done",
+        "response.output_item.done",
+        "response.output_text.delta",
+        "response.output_text.done",
+        "response.completed"
+      ],
+      "delta_types": [],
+      "cost_passed": true,
+      "passed": true,
+      "persisted_cost": 7.82857142857143e-06,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/v1/responses",
+      "cost_verification": "final_usage_and_SpendLogs"
+    },
+    {
+      "model": "glm-5.3-flash",
+      "endpoint": "messages",
+      "stream": false,
+      "status": 200,
+      "seconds": 1.52,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 21,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "input_tokens": 30,
+        "output_tokens": 14,
+        "cache_read_input_tokens": 0,
+        "server_tool_use": {
+          "web_fetch_requests": 0,
+          "web_search_requests": 0
+        },
+        "service_tier": "standard"
+      },
+      "expected_cost": 9.028571428571428e-06,
+      "reported_cost": 9.028571428571428e-06,
+      "call_id": "21031fea-b386-444a-83cd-536cb3f23ce5",
+      "total_tokens_valid": true,
+      "cost_passed": true,
+      "passed": true,
+      "persisted_cost": 9.028571428571428e-06,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/anthropic/v1/messages",
+      "cost_verification": "response_header_and_SpendLogs"
+    },
+    {
+      "model": "glm-5.3-flash",
+      "endpoint": "messages",
+      "stream": true,
+      "status": 200,
+      "seconds": 1.49,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 12,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "input_tokens": 30,
+        "output_tokens": 12,
+        "cache_read_input_tokens": 0,
+        "server_tool_use": {
+          "web_fetch_requests": 0,
+          "web_search_requests": 0
+        },
+        "service_tier": "standard"
+      },
+      "expected_cost": 8.22857142857143e-06,
+      "reported_cost": 0.0,
+      "call_id": "31f1e004-8ffe-4b12-b49f-3ee696872547",
+      "total_tokens_valid": true,
+      "event_types": [
+        "message_start",
+        "ping",
+        "content_block_start",
+        "content_block_delta",
+        "content_block_stop",
+        "message_delta",
+        "message_stop"
+      ],
+      "delta_types": [
+        "thinking_delta",
+        "signature_delta",
+        "text_delta"
+      ],
+      "cost_passed": null,
+      "passed": true,
+      "persisted_cost": 8.22857142857143e-06,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/anthropic/v1/messages",
+      "cost_verification": "SpendLogs_final_cost"
+    },
+    {
+      "model": "glm-5.3-flashx",
+      "endpoint": "chat/completions",
+      "stream": false,
+      "status": 200,
+      "seconds": 1.77,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 29,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "completion_tokens": 19,
+        "prompt_tokens": 30,
+        "total_tokens": 49,
+        "completion_tokens_details": {
+          "reasoning_tokens": 15
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "expected_cost": 2.7571428571428567e-05,
+      "reported_cost": 2.7571428571428567e-05,
+      "call_id": "ebaf810e-2755-46c9-9a4d-67b2ccbdefab",
+      "total_tokens_valid": true,
+      "cost_passed": true,
+      "passed": true,
+      "persisted_cost": 2.757142857142857e-05,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/paas/v4/",
+      "cost_verification": "response_header_and_SpendLogs"
+    },
+    {
+      "model": "glm-5.3-flashx",
+      "endpoint": "chat/completions",
+      "stream": true,
+      "status": 200,
+      "seconds": 1.18,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 10,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "completion_tokens": 11,
+        "prompt_tokens": 30,
+        "total_tokens": 41,
+        "completion_tokens_details": {
+          "reasoning_tokens": 7
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "cost": 1.957142857142857e-05
+      },
+      "expected_cost": 1.957142857142857e-05,
+      "reported_cost": 1.957142857142857e-05,
+      "call_id": "baae446a-5f1c-4492-b327-6cb36fd322d9",
+      "total_tokens_valid": true,
+      "event_types": [
+        "chat.chunk"
+      ],
+      "delta_types": [],
+      "cost_passed": true,
+      "passed": true,
+      "persisted_cost": 1.957142857142857e-05,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/paas/v4",
+      "cost_verification": "final_usage_and_SpendLogs"
+    },
+    {
+      "model": "glm-5.3-flashx",
+      "endpoint": "responses",
+      "stream": false,
+      "status": 200,
+      "seconds": 0.95,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 19,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "input_tokens": 30,
+        "input_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 0,
+          "cached_tokens_details": null,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": null
+        },
+        "output_tokens": 13,
+        "output_tokens_details": {
+          "audio_tokens": null,
+          "reasoning_tokens": 9,
+          "text_tokens": null
+        },
+        "total_tokens": 43,
+        "cost": null
+      },
+      "expected_cost": 2.157142857142857e-05,
+      "reported_cost": 2.157142857142857e-05,
+      "call_id": "811573a1-0bfe-43fc-9423-39325ee6c938",
+      "total_tokens_valid": true,
+      "cost_passed": true,
+      "passed": true,
+      "persisted_cost": 2.157142857142857e-05,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/v1/responses",
+      "cost_verification": "response_header_and_SpendLogs"
+    },
+    {
+      "model": "glm-5.3-flashx",
+      "endpoint": "responses",
+      "stream": true,
+      "status": 200,
+      "seconds": 1.42,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 29,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "input_tokens": 30,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 19,
+        "output_tokens_details": {
+          "reasoning_tokens": 15
+        },
+        "total_tokens": 49,
+        "cost": 2.7571428571428567e-05
+      },
+      "expected_cost": 2.7571428571428567e-05,
+      "reported_cost": 2.7571428571428567e-05,
+      "call_id": "35905081-8878-47f6-b7d4-3de64062300f",
+      "total_tokens_valid": true,
+      "event_types": [
+        "response.created",
+        "response.in_progress",
+        "response.output_item.added",
+        "response.content_part.added",
+        "response.reasoning_text.delta",
+        "response.reasoning_text.done",
+        "response.content_part.done",
+        "response.output_item.done",
+        "response.output_text.delta",
+        "response.output_text.done",
+        "response.completed"
+      ],
+      "delta_types": [],
+      "cost_passed": true,
+      "passed": true,
+      "persisted_cost": 2.757142857142857e-05,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/v1/responses",
+      "cost_verification": "final_usage_and_SpendLogs"
+    },
+    {
+      "model": "glm-5.3-flashx",
+      "endpoint": "messages",
+      "stream": false,
+      "status": 200,
+      "seconds": 2.36,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 13,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "input_tokens": 30,
+        "output_tokens": 12,
+        "cache_read_input_tokens": 0,
+        "server_tool_use": {
+          "web_fetch_requests": 0,
+          "web_search_requests": 0
+        },
+        "service_tier": "standard"
+      },
+      "expected_cost": 2.0571428571428573e-05,
+      "reported_cost": 2.0571428571428573e-05,
+      "call_id": "48dc4101-8ed8-496c-9433-6764e6298d3e",
+      "total_tokens_valid": true,
+      "cost_passed": true,
+      "passed": true,
+      "persisted_cost": 2.057142857142857e-05,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/anthropic/v1/messages",
+      "cost_verification": "response_header_and_SpendLogs"
+    },
+    {
+      "model": "glm-5.3-flashx",
+      "endpoint": "messages",
+      "stream": true,
+      "status": 200,
+      "seconds": 1.07,
+      "curl_exit": 0,
+      "answer": "323",
+      "answer_once": true,
+      "reasoning_chars": 9,
+      "terminal": true,
+      "sdk_schema_passed": true,
+      "usage": {
+        "input_tokens": 30,
+        "output_tokens": 10,
+        "cache_read_input_tokens": 0,
+        "server_tool_use": {
+          "web_fetch_requests": 0,
+          "web_search_requests": 0
+        },
+        "service_tier": "standard"
+      },
+      "expected_cost": 1.8571428571428572e-05,
+      "reported_cost": 0.0,
+      "call_id": "924f12f8-2f7e-406b-851b-b9fa70a2123f",
+      "total_tokens_valid": true,
+      "event_types": [
+        "message_start",
+        "ping",
+        "content_block_start",
+        "content_block_delta",
+        "content_block_stop",
+        "message_delta",
+        "message_stop"
+      ],
+      "delta_types": [
+        "thinking_delta",
+        "signature_delta",
+        "text_delta"
+      ],
+      "cost_passed": null,
+      "passed": true,
+      "persisted_cost": 1.857142857142857e-05,
+      "persisted_usage_valid": true,
+      "persisted_cost_valid": true,
+      "upstream_api_base": "https://open.bigmodel.cn/api/anthropic/v1/messages",
+      "cost_verification": "SpendLogs_final_cost"
+    }
+  ],
+  "request_checks_passed": true,
+  "billing_complete": true,
+  "passed": true
+}
